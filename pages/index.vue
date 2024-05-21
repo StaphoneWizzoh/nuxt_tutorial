@@ -4,6 +4,10 @@
     </div>
 </template>
 
-<script lang="tx"></script>
+<script lang="tx">
+
+const {sayHello} = useUtils()
+sayHello();
+</script>
 
 <style></style>
