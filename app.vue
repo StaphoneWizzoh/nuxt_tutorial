@@ -3,10 +3,7 @@
         <NuxtLayout>
             <header>
                 <ul>
-                    <li>
-                        <NuxtLink to="/">Home</NuxtLink><br />
-                        <NuxtLink to="/events">Events</NuxtLink>
-                    </li>
+                    <li><NuxtLink to="/">Home</NuxtLink><br /></li>
                 </ul>
             </header>
             <NuxtPage />
