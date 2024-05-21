@@ -1,6 +1,15 @@
 <template>
     <div>
-        <!-- <NuxtWelcome /> -->
-        <h1>Hello Nux JS with Vue JS</h1>
+        <NuxtLayout>
+            <header>
+                <ul>
+                    <li>
+                        <NuxtLink to="/">Home</NuxtLink><br />
+                        <NuxtLink to="/events">Events</NuxtLink>
+                    </li>
+                </ul>
+            </header>
+            <NuxtPage />
+        </NuxtLayout>
     </div>
 </template>
