@@ -1,1 +1,1 @@
-Learnig Nuxtjs with Vue Js with typescript.
+Learning Nuxtjs with Vue Js with typescript.
